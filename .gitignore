@@ -1,0 +1,36 @@
+# Runtime assets and outputs
+checkpoints/
+weights/
+*.ckpt
+*.pth
+*.pt
+*.pkl
+*.mp4
+*.avi
+*.mov
+*.wav
+results/
+features/
+outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+
+# Environments and local configuration
+.env
+.venv/
+venv/
+env/
+.DS_Store
+.vscode/
+.idea/
+.ipynb_checkpoints/
